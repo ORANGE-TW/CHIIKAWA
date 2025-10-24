@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>補貨網頁</title>
+<style>
+body { font-family: Arial, sans-serif; padding: 20px; }
+.product-grid { display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start; }
+.product { flex: 1 1 calc(12.5% - 20px); max-width: calc(12.5% - 20px); box-sizing: border-box; text-align: center; }
+@media(max-width:1200px){.product{flex:1 1 calc(16.666% - 20px); max-width:calc(16.666% - 20px);}}
+@media(max-width:992px){.product{flex:1 1 calc(25% - 20px); max-width:calc(25% - 20px);}}
+@media(max-width:768px){.product{flex:1 1 calc(33.33% - 20px); max-width:calc(33.33% - 20px);}}
+@media(max-width:480px){.product{flex:1 1 100%; max-width:100%;}}
+.product img { width: 80%; height: auto; cursor: pointer; }
+.product-name { margin: 10px 0; font-size: 10px; }
+.add-cart { padding: 5px 10px; background-color: #007bff; color: white; border: none; cursor: pointer; border-radius: 4px; }
+.add-cart:disabled { background-color: #888; cursor: not-allowed; }
+</style>
+</head>
+<body>
+<h2>Nagano 商品</h2>
+<div class="product-grid">
+<div class="product">
+<a href="https://nagano-market.jp/products/4974475887939" target="_blank"><img alt="NAGANO測試資料" src="https://cdn.shopify.com/s/files/1/0585/2836/6784/products/4974475887939_1.jpg"/></a>
+<div class="product-name"><font color="red">NAGANO測試資料</font></div>
+<button class="add-cart" data-url="https://nagano-market.jp/products/4974475887939">加入購物車</button>
+</div>
+<div class="product"><a href="https://nagano-market.jp/products/4582662988897" target="_blank"><img alt="ナガノマーケット SHIMA SHIMA マスコット（ナガノのくま）" src="https://nagano-market.jp/cdn/shop/products/4582662988897_1.jpg"/></a><div class="product-name">ナガノマーケット SHIMA SHIMA マスコット（ナガノのくま）</div><button class="add-cart" data-url="https://nagano-market.jp/products/4582662988897">加入購物車</button></div><div class="product"><a href="https://nagano-market.jp/products/4582662915077" target="_blank"><img alt="ナガノマーケット ぷちミニマスコット（チェーンソー）" src="https://nagano-market.jp/cdn/shop/products/4582662915077_1.jpg"/></a><div class="product-name">ナガノマーケット ぷちミニマスコット（チェーンソー）</div><button class="add-cart" data-url="https://nagano-market.jp/products/4582662915077">加入購物車</button></div><div class="product"><a href="https://nagano-market.jp/products/4571609370796" target="_blank"><img alt="ナガノキャラクターズ 2wayネックピロー（くま）" src="https://nagano-market.jp/cdn/shop/files/4571609370796_1.jpg"/></a><div class="product-name">ナガノキャラクターズ 2wayネックピロー（くま）</div><button class="add-cart" data-url="https://nagano-market.jp/products/4571609370796">加入購物車</button></div><div class="product"><a href="https://nagano-market.jp/products/4571609353577" target="_blank"><img alt="ナガノキャラクターズ もぐらコロッケぬいぐるみM（泣き顔）" src="https://nagano-market.jp/cdn/shop/files/4571609353577_1.jpg"/></a><div class="product-name">ナガノキャラクターズ もぐらコロッケぬいぐるみM（泣き顔）</div><button class="add-cart" data-url="https://nagano-market.jp/products/4571609353577">加入購物車</button></div><div class="product"><a href="https://nagano-market.jp/products/4571609370833" target="_blank"><img alt="ナガノキャラクターズ 2wayネックピロー（ニセツチノコ）" src="https://nagano-market.jp/cdn/shop/files/4571609370833_1.jpg"/></a><div class="product-name">ナガノキャラクターズ 2wayネックピロー（ニセツチノコ）</div><button class="add-cart" data-url="https://nagano-market.jp/products/4571609370833">加入購物車</button></div><div class="product"><a href="https://nagano-market.jp/products/4582662915060" target="_blank"><img alt="ナガノマーケット ぷちミニマスコット（リュック）" src="https://nagano-market.jp/cdn/shop/products/4582662915060_1.jpg"/></a><div class="product-name">ナガノマーケット ぷちミニマスコット（リュック）</div><button class="add-cart" data-url="https://nagano-market.jp/products/4582662915060">加入購物車</button></div><div class="product"><a href="https://nagano-market.jp/products/4582662988927" target="_blank"><img alt="ナガノマーケット SHIMA SHIMA ぬいぐるみ（ナガノのくま）" src="https://nagano-market.jp/cdn/shop/products/4582662988927_1.jpg"/></a><div class="product-name">ナガノマーケット SHIMA SHIMA ぬいぐるみ（ナガノのくま）</div><button class="add-cart" data-url="https://nagano-market.jp/products/4582662988927">加入購物車</button></div></div>
+<h2>Chiikawa 商品</h2>
+<div class="product-grid">
+<div class="product">
+<a href="https://chiikawamarket.jp/products/4582662917910" target="_blank"><img alt="吉伊卡哇測試資料" src="https://cdn.shopify.com/s/files/1/0626/7142/1681/products/4582662917910_1.jpg"/></a>
+<div class="product-name"><font color="red">吉伊卡哇測試資料</font></div>
+<button class="add-cart" data-url="https://chiikawamarket.jp/products/4582662917910">加入購物車</button>
+</div>
+
+
+
+
+</div>
+<script>
+
+async function setVariantIds() {
+  const buttons = document.querySelectorAll('.add-cart');
+  for (let btn of buttons) {
+    const productUrl = btn.getAttribute('data-url');
+    try {
+      let resp = await fetch(productUrl + '.json');
+      if (!resp.ok) {
+	      btn.disabled = true;
+		  btn.textContent = '尚未上架';
+		  btn.style.cursor = 'not-allowed';
+		  btn.style.backgroundColor = '#ff8888';   
+	  }
+      let data = await resp.json();
+      if (data && data.product && data.product.variants && data.product.variants.length > 0) {
+        let vid = data.product.variants[0].id;
+        let domain = productUrl.includes('nagano-market.jp') 
+          ? 'https://nagano-market.jp' 
+          : 'https://chiikawamarket.jp';
+        btn.setAttribute('data-link', `${domain}/cart/add?id=${vid}&quantity=1`);
+        btn.disabled = false;
+      }
+    } catch (e) {
+      btn.disabled = true; btn.textContent = '尚未上架'; btn.style.cursor = 'not-allowed'; btn.style.backgroundColor = '#ff8888';   
+      console.error('取得 VID 失敗', productUrl, e);
+    }
+  }
+}
+
+async function checkStockByHtml(productElem, productLink) {
+  try {
+    let resp = await fetch(productLink);
+    if (!resp.ok) return;
+    let html = await resp.text();
+    let btn = productElem.querySelector('.add-cart');
+    if (html.includes('<span>売り切れ') || html.includes('<span>Sold out') || html.includes('<span>在庫なし')) {
+      btn.disabled = true;
+      btn.textContent = '售完';
+btn.style.cursor = 'not-allowed';
+btn.style.backgroundColor = '#888';        
+            }
+  } catch(e) {
+    console.error('檢查庫存 HTML 失敗', e);
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  setVariantIds();
+  document.querySelectorAll('.product').forEach(prod => {
+    let productLink = prod.querySelector('a').href;
+    checkStockByHtml(prod, productLink);
+  });
+  document.querySelectorAll('.add-cart').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.preventDefault();
+      if (btn.disabled) return;
+	   let cartWindow = window.open(btn.dataset.link, 'cartWindow');
+      cartWindow.focus();
+    });
+  });
+});
+
+</script>
+</body>
+</html>
